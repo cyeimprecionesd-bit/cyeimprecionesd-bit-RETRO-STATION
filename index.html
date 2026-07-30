@@ -4,65 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Retro Station NFC</title>
+<title>CYE Retro Hub</title>
 
-<style>
-
-body {
-    margin: 0;
-    background: #111;
-    color: white;
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
-
-.container {
-    padding: 30px;
-}
-
-h1 {
-    font-size: 40px;
-    color: #00ffff;
-}
-
-.logo {
-    font-size: 60px;
-}
-
-button {
-    width: 90%;
-    max-width: 350px;
-    padding: 20px;
-    margin: 15px;
-    border-radius: 20px;
-    border: none;
-    font-size: 22px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.iphone {
-    background: #ffffff;
-    color: black;
-}
-
-.android {
-    background: #3ddc84;
-    color: black;
-}
-
-.arcade {
-    background: #ff0066;
-    color: white;
-}
-
-.footer {
-    margin-top: 40px;
-    font-size: 14px;
-    color: #aaa;
-}
-
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -70,33 +14,45 @@ button {
 
 <div class="container">
 
-<div class="logo">🎮</div>
+    <img src="imagenes/logo-cye.png" class="logo">
 
-<h1>RETRO CYE STATION</h1>
+    <h1>CYE RETRO HUB</h1>
 
-<p>Elegí tu plataforma para comenzar</p>
+    <p>Tu estación de juegos retro</p>
 
+    <div class="menu">
 
-<button class="iphone" onclick="window.location.href='delta://game/663ddef71cc808c5382a3426ef6d03b5499a51c8'">
-🍎 iPhone<br>
-Delta Emulator
-</button>
-
-
-<button class="android" onclick="window.location.href='https://play.google.com/store/apps/details?id=com.swordfish.lemuroid'">
-🤖 Android<br>
-Lemuroid
-</button>
+        <div class="game-card">
+            <img src="imagenes/juego1.png">
+            <h2>Juego Retro 1</h2>
+            <button>▶ JUGAR</button>
+        </div>
 
 
+        <div class="game-card">
+            <img src="imagenes/juego2.png">
+            <h2>Juego Retro 2</h2>
+            <button>▶ JUGAR</button>
+        </div>
 
 
-<div class="footer">
-CYE Impresiones 3D<br>
-Estación NFC Retro Gaming
+        <div class="game-card">
+            <img src="imagenes/juego3.png">
+            <h2>Juego Retro 3</h2>
+            <button>▶ JUGAR</button>
+        </div>
+
+    </div>
+
+
+    <footer>
+        CYE Impresiones 3D
+    </footer>
+
 </div>
 
-</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
