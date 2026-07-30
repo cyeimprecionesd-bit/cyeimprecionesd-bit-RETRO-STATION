@@ -1,1 +1,88 @@
-/* Diseño CYE Retro Hub */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, #24104f, #050505);
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+}
+
+
+.container {
+    padding: 20px;
+}
+
+
+.logo {
+    width: 220px;
+    max-width: 80%;
+    margin-top: 20px;
+    filter: drop-shadow(0 0 15px #8a2be2);
+}
+
+
+h1 {
+    font-size: 35px;
+    color: #ffffff;
+    text-shadow: 0 0 10px #7a00ff;
+}
+
+
+p {
+    font-size: 18px;
+    color: #cccccc;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+
+.game-card {
+    background: rgba(0,0,0,0.7);
+    border: 2px solid #8a2be2;
+    border-radius: 15px;
+    padding: 15px;
+    width: 220px;
+    box-shadow: 0 0 15px #8a2be2;
+}
+
+
+.game-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.game-card h2 {
+    font-size: 20px;
+}
+
+
+button {
+    background: linear-gradient(45deg,#8a2be2,#00ffff);
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+button:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    margin-top: 40px;
+    color: #888;
+}
